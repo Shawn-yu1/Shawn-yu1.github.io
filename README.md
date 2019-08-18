@@ -22,12 +22,13 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 #技术栈
 -----------------------------------------------
-前端：vue2+vuex+axios+vue-router+ES6+Element-ui+echarts
+前端：vue2+vuex+axios+vue-router+ES6+Element-ui+echarts+百度地图API
+
 后端：node.js
 
 #技术概要
 ----
-用nodejs简单模拟了一个服务器，然后在器vue中设置了路由守卫，其数据的请求用的是axios，数据的管理是vuex,并运用到了vue-router对页面进行了路由配置，效果展示方面使用了element-ui框架，该demo基本运用上了所有vue常见的技术，管道过滤filter以及全局自定义指令directive。
+用nodejs简单模拟了一个服务器，然后在器vue中设置了路由守卫，其数据的请求用的是axios，数据运用了vuex进行统一管理,并运用到了vue-router对页面进行了路由配置，数据缓存运用了H5新增API的localStorage和sessionStorage效果展示方面使用了element-ui框架，该demo基本运用上了所有vue常见的技术，管道过滤filter以及全局自定义指令directive,可视化方面引入了echarts和百度地图API来展示数据。
 
 #项目运行
 ----------
@@ -48,3 +49,4 @@ clone项目到本地
 #状态管理
 ---------
 大型复杂项目的状态管理采用的是vuex。在这里应用vuex只是对于该技术的练习，不是所有的项目都适合vuex的使用
+
