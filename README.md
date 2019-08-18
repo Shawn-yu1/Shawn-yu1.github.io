@@ -49,4 +49,4 @@ clone项目到本地
 #状态管理
 ---------
 大型复杂项目的状态管理采用的是vuex。在这里应用vuex只是对于该技术的练习，不是所有的项目都适合vuex的使用
-![Image text]https://github.com/Shawn-yu1/my-vue/blob/master/img/1566102135(1).jpg
+![Image text](https://github.com/Shawn-yu1/my-vue/blob/master/img/1566102135(1).jpg)
