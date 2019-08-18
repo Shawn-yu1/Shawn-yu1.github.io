@@ -45,9 +45,6 @@ export default {
     from{background:#ccc}
     to{background:black}
 }
-.box:hover{
-    width:300px;
-}
 li{
     height:50px;
     color:#fff;
