@@ -27,11 +27,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 #技术概要
 ----
-用nodejs简单模拟了一个服务器，然后在器vue中设置了路由守卫，其数据的请求用的是axios，数据的管理是vuex,并运用到了vue-router对页面进行了路由配置，效果展示方面使用了element-ui框架，该demo基本运用上了所有vue常见的技术，管道过滤。
+用nodejs简单模拟了一个服务器，然后在器vue中设置了路由守卫，其数据的请求用的是axios，数据的管理是vuex,并运用到了vue-router对页面进行了路由配置，效果展示方面使用了element-ui框架，该demo基本运用上了所有vue常见的技术，管道过滤filter以及全局自定义指令directive。
 
 #项目运行
-----------
-##如何运行
 ----------
 运行前请先安装node.js
 
